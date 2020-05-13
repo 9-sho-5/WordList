@@ -13,6 +13,14 @@
 		AE7D221D246AE06300776DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7D221B246AE06300776DD6 /* Main.storyboard */; };
 		AE7D221F246AE06600776DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7D221E246AE06600776DD6 /* Assets.xcassets */; };
 		AE7D2222246AE06600776DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7D2220246AE06600776DD6 /* LaunchScreen.storyboard */; };
+		AE7D222D246AE09F00776DD6 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D222A246AE09F00776DD6 /* word_blank.png */; };
+		AE7D222E246AE09F00776DD6 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D222B246AE09F00776DD6 /* fin.png */; };
+		AE7D222F246AE09F00776DD6 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D222C246AE09F00776DD6 /* title_logo.png */; };
+		AE7D2231246AE80600776DD6 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2230246AE80600776DD6 /* QuestionViewController.swift */; };
+		AE7D2233246AE86800776DD6 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2232246AE86800776DD6 /* ListTableViewController.swift */; };
+		AE7D2235246AE8AA00776DD6 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2234246AE8AA00776DD6 /* AddViewController.swift */; };
+		AE7D2237246AE8F100776DD6 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2236246AE8F100776DD6 /* FinishViewController.swift */; };
+		AE7D2239246AFD3800776DD6 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2238246AFD3800776DD6 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		AE7D221E246AE06600776DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE7D2221246AE06600776DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE7D2223246AE06600776DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7D222A246AE09F00776DD6 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		AE7D222B246AE09F00776DD6 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		AE7D222C246AE09F00776DD6 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		AE7D2230246AE80600776DD6 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		AE7D2232246AE86800776DD6 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		AE7D2234246AE8AA00776DD6 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AE7D2236246AE8F100776DD6 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		AE7D2238246AFD3800776DD6 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +76,27 @@
 				AE7D2217246AE06300776DD6 /* SceneDelegate.swift */,
 				AE7D2219246AE06300776DD6 /* ViewController.swift */,
 				AE7D221B246AE06300776DD6 /* Main.storyboard */,
+				AE7D2229246AE09F00776DD6 /* WordList素材 */,
 				AE7D221E246AE06600776DD6 /* Assets.xcassets */,
 				AE7D2220246AE06600776DD6 /* LaunchScreen.storyboard */,
 				AE7D2223246AE06600776DD6 /* Info.plist */,
+				AE7D2230246AE80600776DD6 /* QuestionViewController.swift */,
+				AE7D2232246AE86800776DD6 /* ListTableViewController.swift */,
+				AE7D2234246AE8AA00776DD6 /* AddViewController.swift */,
+				AE7D2236246AE8F100776DD6 /* FinishViewController.swift */,
+				AE7D2238246AFD3800776DD6 /* ListTableViewCell.swift */,
 			);
 			path = WordList;
+			sourceTree = "<group>";
+		};
+		AE7D2229246AE09F00776DD6 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				AE7D222A246AE09F00776DD6 /* word_blank.png */,
+				AE7D222B246AE09F00776DD6 /* fin.png */,
+				AE7D222C246AE09F00776DD6 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +157,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7D222D246AE09F00776DD6 /* word_blank.png in Resources */,
+				AE7D222F246AE09F00776DD6 /* title_logo.png in Resources */,
 				AE7D2222246AE06600776DD6 /* LaunchScreen.storyboard in Resources */,
 				AE7D221F246AE06600776DD6 /* Assets.xcassets in Resources */,
+				AE7D222E246AE09F00776DD6 /* fin.png in Resources */,
 				AE7D221D246AE06300776DD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7D221A246AE06300776DD6 /* ViewController.swift in Sources */,
+				AE7D2239246AFD3800776DD6 /* ListTableViewCell.swift in Sources */,
 				AE7D2216246AE06300776DD6 /* AppDelegate.swift in Sources */,
+				AE7D2235246AE8AA00776DD6 /* AddViewController.swift in Sources */,
+				AE7D2237246AE8F100776DD6 /* FinishViewController.swift in Sources */,
+				AE7D2231246AE80600776DD6 /* QuestionViewController.swift in Sources */,
+				AE7D2233246AE86800776DD6 /* ListTableViewController.swift in Sources */,
 				AE7D2218246AE06300776DD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
