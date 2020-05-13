@@ -100,7 +100,7 @@
                     <navigationItem key="navigationItem" title="一覧" id="rrF-Gu-JVQ">
                         <barButtonItem key="leftBarButtonItem" title="戻る" id="kiB-xl-11b">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="8Bu-jH-Ves"/>
+                                <segue destination="GX1-17-xyk" kind="unwind" unwindAction="backWithSender:" id="b8i-oH-zSU"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="khB-US-Yby">
@@ -111,6 +111,7 @@
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rwv-aN-QRd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="GX1-17-xyk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1255" y="1088"/>
         </scene>
